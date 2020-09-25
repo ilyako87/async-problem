@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClientInfo>
+    <birthDate>1961-10-09T22:50:00.040+03:00</birthDate>
+    <gender>MALE</gender>
+    <inn>909193945475</inn>
+    <jobStatus>CONTRACTOR</jobStatus>
+    <name>Геннадий</name>
+    <surname>Гришин</surname>
+	<approval>ACCEPTED</approval>
+</ClientInfo>

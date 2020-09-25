@@ -1,0 +1,20 @@
+ibm:
+  mq:
+    queue-manager: ${QM_NAME:QM1}
+    conn-name: ${CONN_NAME}
+    channel: ${CHANNEL_NAME}
+    user:
+
+stub:
+  queues:
+    - MSG.STUB.IN
+    - MSG.STUB.RQ
+
+
+
+
+
+
+
+
+

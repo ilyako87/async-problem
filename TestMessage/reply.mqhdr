@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MQHeaders>
+	<MQMD>
+		<StrucId>MD  </StrucId>
+		<Version>2</Version>
+		<Report>0</Report>
+		<MsgType>8</MsgType>
+		<Expiry>-1</Expiry>
+		<FeedBack>0</FeedBack>
+		<Encoding>546</Encoding>
+		<CodedCharSetId>1208</CodedCharSetId>
+		<Format>MQHRF2  </Format>
+		<Priority>4</Priority>
+		<Persistence>1</Persistence>
+		<MsgId>414D51204D53472E47572E434C533120AEDD695F2560B802</MsgId>
+		<CorrelId>000000000000000000000000000000000000000000000777</CorrelId>
+		<BackoutCount>0</BackoutCount>
+		<ReplyToQ/>
+		<ReplyToQMgr>MSG.GW.CLS1                                     </ReplyToQMgr>
+		<UserIdentifier>rccusr      </UserIdentifier>
+		<AccountingToken>160105150000000D410E0EF3742177896DEEDBEF03000000000000000000000B</AccountingToken>
+		<ApplIdentityData/>
+		<PutApplType>28</PutApplType>
+		<PutApplName>initiator.StubApplication   </PutApplName>
+		<PutDate>2020-09-22</PutDate>
+		<PutTime>22:50:00.130</PutTime>
+		<ApplOriginData/>
+		<GroupId>000000000000000000000000000000000000000000000000</GroupId>
+		<MsgSeqNumber>1</MsgSeqNumber>
+		<Offset>0</Offset>
+		<MsgFlags>0</MsgFlags>
+		<OriginalLength>-1</OriginalLength>
+	</MQMD>
+	<MQRFH2>
+		<StrucId>RFH </StrucId>
+		<Version>2</Version>
+		<StrucLength>368</StrucLength>
+		<Encoding>546</Encoding>
+		<CodedCharSetId>1208</CodedCharSetId>
+		<Format>MQSTR   </Format>
+		<Flags>0</Flags>
+		<NameValueCCSID>1208</NameValueCCSID>
+		<NameValueList>
+			<mcd>
+				<Msd>jms_text</Msd>
+			</mcd>
+			<jms>
+				<Dst>queue:///MSG.STUB.OUT</Dst>
+				<Tms>1600804200130</Tms>
+				<Cid>ID:000000000000000000000000000000000000000000000777</Cid>
+				<Dlv>2</Dlv>
+			</jms>
+			<usr>
+				<MSGUID>82353387740</MSGUID>
+				<VERSION>0.1.0-SNAPSHOT</VERSION>
+				<SERVICENAME>TestService1</SERVICENAME>
+				<RECEIVER>Stub-handler</RECEIVER>
+			</usr>
+		</NameValueList>
+	</MQRFH2>
+</MQHeaders>
